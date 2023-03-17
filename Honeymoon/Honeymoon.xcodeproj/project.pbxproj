@@ -13,6 +13,8 @@
 		18955FAD29C4D95A000520CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18955FAC29C4D95A000520CD /* Preview Assets.xcassets */; };
 		18955FB629C4DABF000520CD /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18955FB429C4DABF000520CD /* sound-rise.mp3 */; };
 		18955FB729C4DABF000520CD /* sound-click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18955FB529C4DABF000520CD /* sound-click.mp3 */; };
+		18955FB929C4DAF3000520CD /* HoneymoonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955FB829C4DAF3000520CD /* HoneymoonModel.swift */; };
+		18955FBC29C4DB47000520CD /* HoneymoonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955FBB29C4DB47000520CD /* HoneymoonData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		18955FAC29C4D95A000520CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18955FB429C4DABF000520CD /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
 		18955FB529C4DABF000520CD /* sound-click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-click.mp3"; sourceTree = "<group>"; };
+		18955FB829C4DAF3000520CD /* HoneymoonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonModel.swift; sourceTree = "<group>"; };
+		18955FBB29C4DB47000520CD /* HoneymoonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 		18955FA429C4D958000520CD /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				18955FBA29C4DAFD000520CD /* Model */,
+				18955FBD29C4DB52000520CD /* Data */,
 				18955FA529C4D958000520CD /* HoneymoonApp.swift */,
 				18955FA729C4D958000520CD /* ContentView.swift */,
 				18955FA929C4D95A000520CD /* Assets.xcassets */,
@@ -79,6 +85,22 @@
 				18955FB529C4DABF000520CD /* sound-click.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		18955FBA29C4DAFD000520CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18955FB829C4DAF3000520CD /* HoneymoonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18955FBD29C4DB52000520CD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				18955FBB29C4DB47000520CD /* HoneymoonData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +175,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18955FBC29C4DB47000520CD /* HoneymoonData.swift in Sources */,
+				18955FB929C4DAF3000520CD /* HoneymoonModel.swift in Sources */,
 				18955FA829C4D958000520CD /* ContentView.swift in Sources */,
 				18955FA629C4D958000520CD /* HoneymoonApp.swift in Sources */,
 			);
