@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18095E7029C54EEE00A92E7C /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18095E6F29C54EEE00A92E7C /* CartView.swift */; };
+		18095E7029C54EEE00A92E7C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18095E6F29C54EEE00A92E7C /* CardView.swift */; };
+		18095E7229C55B8E00A92E7C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18095E7129C55B8E00A92E7C /* HeaderView.swift */; };
+		18095E7429C5925B00A92E7C /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18095E7329C5925B00A92E7C /* FooterView.swift */; };
 		18955FA629C4D958000520CD /* HoneymoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955FA529C4D958000520CD /* HoneymoonApp.swift */; };
 		18955FA829C4D958000520CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955FA729C4D958000520CD /* ContentView.swift */; };
 		18955FAA29C4D95A000520CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18955FA929C4D95A000520CD /* Assets.xcassets */; };
@@ -19,7 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18095E6F29C54EEE00A92E7C /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		18095E6F29C54EEE00A92E7C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		18095E7129C55B8E00A92E7C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		18095E7329C5925B00A92E7C /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		18955FA229C4D958000520CD /* Honeymoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honeymoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18955FA529C4D958000520CD /* HoneymoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonApp.swift; sourceTree = "<group>"; };
 		18955FA729C4D958000520CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,7 +50,9 @@
 			isa = PBXGroup;
 			children = (
 				18955FA729C4D958000520CD /* ContentView.swift */,
-				18095E6F29C54EEE00A92E7C /* CartView.swift */,
+				18095E6F29C54EEE00A92E7C /* CardView.swift */,
+				18095E7129C55B8E00A92E7C /* HeaderView.swift */,
+				18095E7329C5925B00A92E7C /* FooterView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,7 +192,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18095E7029C54EEE00A92E7C /* CartView.swift in Sources */,
+				18095E7029C54EEE00A92E7C /* CardView.swift in Sources */,
+				18095E7429C5925B00A92E7C /* FooterView.swift in Sources */,
+				18095E7229C55B8E00A92E7C /* HeaderView.swift in Sources */,
 				18955FBC29C4DB47000520CD /* HoneymoonData.swift in Sources */,
 				18955FB929C4DAF3000520CD /* HoneymoonModel.swift in Sources */,
 				18955FA829C4D958000520CD /* ContentView.swift in Sources */,

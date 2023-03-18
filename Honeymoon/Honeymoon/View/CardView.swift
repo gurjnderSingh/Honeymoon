@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CartView: View {
+struct CardView: View {
     //MARK: - Properties
     
     let id = UUID()
@@ -45,7 +45,7 @@ struct CartView: View {
                         )
                     
                 }
-                .padding()
+                    .padding(.bottom, 50)
                 , alignment: .bottom
             )
             
@@ -54,7 +54,7 @@ struct CartView: View {
 
 struct CartView_Previews: PreviewProvider {
     static var previews: some View {
-        CartView(honeymoon: honeyMoonData[2])
+        CardView(honeymoon: honeyMoonData[2])
             .previewLayout(.sizeThatFits)
     }
 }
