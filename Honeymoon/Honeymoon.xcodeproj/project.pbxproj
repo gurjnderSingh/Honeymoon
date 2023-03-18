@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18095E7029C54EEE00A92E7C /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18095E6F29C54EEE00A92E7C /* CartView.swift */; };
 		18955FA629C4D958000520CD /* HoneymoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955FA529C4D958000520CD /* HoneymoonApp.swift */; };
 		18955FA829C4D958000520CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955FA729C4D958000520CD /* ContentView.swift */; };
 		18955FAA29C4D95A000520CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18955FA929C4D95A000520CD /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18095E6F29C54EEE00A92E7C /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		18955FA229C4D958000520CD /* Honeymoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honeymoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18955FA529C4D958000520CD /* HoneymoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonApp.swift; sourceTree = "<group>"; };
 		18955FA729C4D958000520CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18095E6E29C54ECC00A92E7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18955FA729C4D958000520CD /* ContentView.swift */,
+				18095E6F29C54EEE00A92E7C /* CartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		18955F9929C4D958000520CD = {
 			isa = PBXGroup;
 			children = (
@@ -62,7 +73,7 @@
 				18955FBA29C4DAFD000520CD /* Model */,
 				18955FBD29C4DB52000520CD /* Data */,
 				18955FA529C4D958000520CD /* HoneymoonApp.swift */,
-				18955FA729C4D958000520CD /* ContentView.swift */,
+				18095E6E29C54ECC00A92E7C /* View */,
 				18955FA929C4D95A000520CD /* Assets.xcassets */,
 				18955FB329C4DABF000520CD /* Sounds */,
 				18955FAB29C4D95A000520CD /* Preview Content */,
@@ -175,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18095E7029C54EEE00A92E7C /* CartView.swift in Sources */,
 				18955FBC29C4DB47000520CD /* HoneymoonData.swift in Sources */,
 				18955FB929C4DAF3000520CD /* HoneymoonModel.swift in Sources */,
 				18955FA829C4D958000520CD /* ContentView.swift in Sources */,
