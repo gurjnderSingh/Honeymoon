@@ -21,6 +21,9 @@
 		18955FB729C4DABF000520CD /* sound-click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18955FB529C4DABF000520CD /* sound-click.mp3 */; };
 		18955FB929C4DAF3000520CD /* HoneymoonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955FB829C4DAF3000520CD /* HoneymoonModel.swift */; };
 		18955FBC29C4DB47000520CD /* HoneymoonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955FBB29C4DB47000520CD /* HoneymoonData.swift */; };
+		18FB625929C838C300CDFBAA /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB625829C838C300CDFBAA /* InfoView.swift */; };
+		18FB625B29C8397E00CDFBAA /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB625A29C8397E00CDFBAA /* TitleModifier.swift */; };
+		18FB625E29C83AC400CDFBAA /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB625D29C83AC400CDFBAA /* ButtonModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		18955FB529C4DABF000520CD /* sound-click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-click.mp3"; sourceTree = "<group>"; };
 		18955FB829C4DAF3000520CD /* HoneymoonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonModel.swift; sourceTree = "<group>"; };
 		18955FBB29C4DB47000520CD /* HoneymoonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonData.swift; sourceTree = "<group>"; };
+		18FB625829C838C300CDFBAA /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		18FB625A29C8397E00CDFBAA /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
+		18FB625D29C83AC400CDFBAA /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 				18095E7129C55B8E00A92E7C /* HeaderView.swift */,
 				18095E7329C5925B00A92E7C /* FooterView.swift */,
 				18095E7A29C5A5B400A92E7C /* GuideView.swift */,
+				18FB625829C838C300CDFBAA /* InfoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -92,6 +99,7 @@
 		18955FA429C4D958000520CD /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				18FB625C29C839BE00CDFBAA /* Modifier */,
 				18095E7529C5A34600A92E7C /* Component */,
 				18955FBA29C4DAFD000520CD /* Model */,
 				18955FBD29C4DB52000520CD /* Data */,
@@ -135,6 +143,15 @@
 				18955FBB29C4DB47000520CD /* HoneymoonData.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		18FB625C29C839BE00CDFBAA /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				18FB625A29C8397E00CDFBAA /* TitleModifier.swift */,
+				18FB625D29C83AC400CDFBAA /* ButtonModifier.swift */,
+			);
+			path = Modifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,9 +227,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				18095E7029C54EEE00A92E7C /* CardView.swift in Sources */,
+				18FB625929C838C300CDFBAA /* InfoView.swift in Sources */,
 				18095E7429C5925B00A92E7C /* FooterView.swift in Sources */,
+				18FB625B29C8397E00CDFBAA /* TitleModifier.swift in Sources */,
 				18095E7229C55B8E00A92E7C /* HeaderView.swift in Sources */,
 				18955FBC29C4DB47000520CD /* HoneymoonData.swift in Sources */,
+				18FB625E29C83AC400CDFBAA /* ButtonModifier.swift in Sources */,
 				18095E7729C5A35400A92E7C /* HeaderComponent.swift in Sources */,
 				18955FB929C4DAF3000520CD /* HoneymoonModel.swift in Sources */,
 				18955FA829C4D958000520CD /* ContentView.swift in Sources */,

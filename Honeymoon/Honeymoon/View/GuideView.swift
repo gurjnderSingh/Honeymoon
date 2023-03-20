@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct GuideView: View {
-    
+    //MARK: - PROPERTIES
     @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
@@ -20,8 +20,7 @@ struct GuideView: View {
                 
                 Text("Get Started")
                     .fontWeight(.black)
-                    .font(.largeTitle)
-                    .foregroundColor(Color.pink)
+                    .modifier(TitleModifier())
                 
                 Text("Discover and pick the perfect destination for your romantic honeymoon!")
                     .lineLimit(nil)
@@ -55,13 +54,7 @@ struct GuideView: View {
                     presentationMode.wrappedValue.dismiss()
                 } label: {
                     Text("continue".uppercased())
-                        .font(.headline)
-                        .padding()
-                        .frame(minWidth: 0, maxWidth: .infinity)
-                        .background(
-                            Capsule().fill(Color.pink)
-                        )
-                        .foregroundColor(Color.white)
+                        .modifier(ButtonModifier())
                 }
 
                 
