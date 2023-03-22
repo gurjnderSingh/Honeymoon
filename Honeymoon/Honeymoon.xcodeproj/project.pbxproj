@@ -21,6 +21,7 @@
 		18955FB729C4DABF000520CD /* sound-click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18955FB529C4DABF000520CD /* sound-click.mp3 */; };
 		18955FB929C4DAF3000520CD /* HoneymoonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955FB829C4DAF3000520CD /* HoneymoonModel.swift */; };
 		18955FBC29C4DB47000520CD /* HoneymoonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955FBB29C4DB47000520CD /* HoneymoonData.swift */; };
+		18E94C2729CADC2A00BB11EA /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E94C2629CADC2A00BB11EA /* SymbolModifier.swift */; };
 		18FB625929C838C300CDFBAA /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB625829C838C300CDFBAA /* InfoView.swift */; };
 		18FB625B29C8397E00CDFBAA /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB625A29C8397E00CDFBAA /* TitleModifier.swift */; };
 		18FB625E29C83AC400CDFBAA /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB625D29C83AC400CDFBAA /* ButtonModifier.swift */; };
@@ -42,6 +43,7 @@
 		18955FB529C4DABF000520CD /* sound-click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-click.mp3"; sourceTree = "<group>"; };
 		18955FB829C4DAF3000520CD /* HoneymoonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonModel.swift; sourceTree = "<group>"; };
 		18955FBB29C4DB47000520CD /* HoneymoonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonData.swift; sourceTree = "<group>"; };
+		18E94C2629CADC2A00BB11EA /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
 		18FB625829C838C300CDFBAA /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		18FB625A29C8397E00CDFBAA /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		18FB625D29C83AC400CDFBAA /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 			children = (
 				18FB625A29C8397E00CDFBAA /* TitleModifier.swift */,
 				18FB625D29C83AC400CDFBAA /* ButtonModifier.swift */,
+				18E94C2629CADC2A00BB11EA /* SymbolModifier.swift */,
 			);
 			path = Modifier;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				18FB625929C838C300CDFBAA /* InfoView.swift in Sources */,
 				18095E7429C5925B00A92E7C /* FooterView.swift in Sources */,
 				18FB625B29C8397E00CDFBAA /* TitleModifier.swift in Sources */,
+				18E94C2729CADC2A00BB11EA /* SymbolModifier.swift in Sources */,
 				18095E7229C55B8E00A92E7C /* HeaderView.swift in Sources */,
 				18955FBC29C4DB47000520CD /* HoneymoonData.swift in Sources */,
 				18FB625E29C83AC400CDFBAA /* ButtonModifier.swift in Sources */,
