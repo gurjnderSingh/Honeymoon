@@ -22,6 +22,8 @@
 		18955FB929C4DAF3000520CD /* HoneymoonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955FB829C4DAF3000520CD /* HoneymoonModel.swift */; };
 		18955FBC29C4DB47000520CD /* HoneymoonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955FBB29C4DB47000520CD /* HoneymoonData.swift */; };
 		18E94C2729CADC2A00BB11EA /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E94C2629CADC2A00BB11EA /* SymbolModifier.swift */; };
+		18F1375529CED458002FA912 /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1375429CED458002FA912 /* CardTransition.swift */; };
+		18F1375829CED878002FA912 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1375729CED878002FA912 /* PlaySound.swift */; };
 		18FB625929C838C300CDFBAA /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB625829C838C300CDFBAA /* InfoView.swift */; };
 		18FB625B29C8397E00CDFBAA /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB625A29C8397E00CDFBAA /* TitleModifier.swift */; };
 		18FB625E29C83AC400CDFBAA /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB625D29C83AC400CDFBAA /* ButtonModifier.swift */; };
@@ -44,6 +46,8 @@
 		18955FB829C4DAF3000520CD /* HoneymoonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonModel.swift; sourceTree = "<group>"; };
 		18955FBB29C4DB47000520CD /* HoneymoonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonData.swift; sourceTree = "<group>"; };
 		18E94C2629CADC2A00BB11EA /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
+		18F1375429CED458002FA912 /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
+		18F1375729CED878002FA912 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		18FB625829C838C300CDFBAA /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		18FB625A29C8397E00CDFBAA /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		18FB625D29C83AC400CDFBAA /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 		18955FA429C4D958000520CD /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				18F1375629CED865002FA912 /* Helper */,
+				18F1375329CED433002FA912 /* Extension */,
 				18FB625C29C839BE00CDFBAA /* Modifier */,
 				18095E7529C5A34600A92E7C /* Component */,
 				18955FBA29C4DAFD000520CD /* Model */,
@@ -145,6 +151,22 @@
 				18955FBB29C4DB47000520CD /* HoneymoonData.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		18F1375329CED433002FA912 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18F1375429CED458002FA912 /* CardTransition.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		18F1375629CED865002FA912 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				18F1375729CED878002FA912 /* PlaySound.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		18FB625C29C839BE00CDFBAA /* Modifier */ = {
@@ -233,10 +255,12 @@
 				18FB625929C838C300CDFBAA /* InfoView.swift in Sources */,
 				18095E7429C5925B00A92E7C /* FooterView.swift in Sources */,
 				18FB625B29C8397E00CDFBAA /* TitleModifier.swift in Sources */,
+				18F1375529CED458002FA912 /* CardTransition.swift in Sources */,
 				18E94C2729CADC2A00BB11EA /* SymbolModifier.swift in Sources */,
 				18095E7229C55B8E00A92E7C /* HeaderView.swift in Sources */,
 				18955FBC29C4DB47000520CD /* HoneymoonData.swift in Sources */,
 				18FB625E29C83AC400CDFBAA /* ButtonModifier.swift in Sources */,
+				18F1375829CED878002FA912 /* PlaySound.swift in Sources */,
 				18095E7729C5A35400A92E7C /* HeaderComponent.swift in Sources */,
 				18955FB929C4DAF3000520CD /* HoneymoonModel.swift in Sources */,
 				18955FA829C4D958000520CD /* ContentView.swift in Sources */,
